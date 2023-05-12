@@ -1,0 +1,69 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@{
+}
+
+@model List<TravelExperts.Models.BookingsViewModel> 
+
+
+    <!-- this page is not currently in use but it only displays packages that were booked previously -->
+        <h2>My Bookings</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th class="col-1">Booking ID</th>
+                    <th class="col-1">Booking Date</th>
+                    <th class="col-1">Start Date</th>
+                    <th class="col-1">End Date</th>
+                    <th class="col-1">Description</th>
+                    <th class="col-1">Destination</th>
+                    <th class="col-1">Price</th>
+                </tr>
+            </thead>
+            <tbody>
+            @foreach (var bookingDetail in Model)
+            {
+                    <tr>
+                        <td>@bookingDetail.BookingId</td>
+                        <td>@(bookingDetail.Booking.BookingDate?.ToString("d") ?? "")</td>
+                        <td>@(bookingDetail.TripStart.HasValue ? bookingDetail.TripStart.Value.ToShortDateString() : string.Empty)</td>
+                        <td>@(bookingDetail.TripEnd.HasValue ? bookingDetail.TripEnd.Value.ToShortDateString() : string.Empty)</td>
+                        <td>@bookingDetail.Description</td>
+                        <td>@bookingDetail.Destination</td>
+                        <td>
+                        @if (bookingDetail.AgencyCommission.HasValue)
+                        {
+                            @string.Format("{0:C}", bookingDetail.BasePrice + bookingDetail.AgencyCommission)
+                        }
+                        else
+                        {
+                            @string.Format("{0:C}", bookingDetail.BasePrice)
+                        }
+                        </td>
+                        @*<td>@string.Format("{0:C}", bookingDetail.BasePrice)</td>*@
+                    </tr>
+            }
+            </tbody>
+        </table>
+        <div class="row">
+        @foreach (var booking in Model)
+        {
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">@booking.Destination</h5>
+                            <p class="card-text">@booking.Description</p>
+                            <p class="card-text">Booking ID: @booking.BookingId</p>
+                            <p class="card-text">Booking Date: @(booking.Booking.BookingDate?.ToString("d") ?? "")</p>
+                            <p class="card-text">Start Date: @(booking.TripStart.HasValue ? booking.TripStart.Value.ToShortDateString() : string.Empty)</p>
+                            <p class="card-text">End Date: @(booking.TripEnd.HasValue ? booking.TripEnd.Value.ToShortDateString() : string.Empty)</p>
+                            <p class="card-text">Price: @string.Format("{0:C}", booking.BasePrice)</p>
+                        </div>
+                    </div>
+                </div>
+        }
+        </div>
+

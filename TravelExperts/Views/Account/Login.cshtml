@@ -1,0 +1,36 @@
+﻿@model TravelExpertsData.Customer
+@{
+    ViewData["Title"] = "Login";
+}
+
+<!-- display error message if it exists -->
+@if (!string.IsNullOrEmpty(ViewData["ErrorMessage"]?.ToString()))
+{
+    <div class="alert alert-danger">@ViewData["ErrorMessage"]</div>
+}
+
+<form asp-action="Login" method="POST">
+    <h3>Login Page</h3>
+    @*Username input info*@
+    <div  class="form-group col-4">
+        <label class="form-label mt-4">Username:</label>
+        <input type="text" class="form-control bg-dark" aria-describedby="emailHelp" placeholder="Enter username" asp-for="Username">
+        <span asp-validation-for="Username" class="text-danger"></span>
+    </div>
+    @*Password input info*@
+    <div class="form-group col-4">
+        <label  class="form-label mt-4">Password</label>
+        <input type="password" asp-for="Password" class="form-control bg-dark" placeholder="Password"
+                data-val="true" data-val-length="Password must be at least 6 characters long." />
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+
+    @*Authentication Btn*@
+    <div colspan="2" class="text-center mt-3">
+        <input type="submit" value="Authenticate" class="btn btn-outline-info" />
+    </div>
+
+    @*Link to redirect to registration page*@
+    <p class="text-info">If you don't have an account with us please <a class="text-primary" asp-action="Index1" asp-controller="Register">Register here</a>.</p>
+
+</form>

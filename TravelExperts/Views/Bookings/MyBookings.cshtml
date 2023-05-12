@@ -1,0 +1,97 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+@model List<TravelExpertsData.Booking>
+
+
+<body class="bg-dark">
+<h2>My Bookings</h2>
+
+
+
+@if (Model.Count == 0)
+{
+    <!-- it shows when the MY Bookings Page is empty -->
+    <p class="text-info">You have no bookings.</p><br/>
+        <p class="text-white">View our available <a class="text-primary" asp-action="Index" asp-controller="Packages">packages</a>.</p>
+}
+else
+{
+    <!-- Shows added packages to the page in card format -->
+<div class="row row-cols-1 row-cols-md-2 g-4">
+    @foreach (var booking in Model)
+    {
+        <div class="col mb-5">
+            <div class="card">
+                <div class="card-body">
+                        <h3 class="card-title">Package Name: @booking.Package.PkgName</h3>
+                        <h6 class="card-subtitle mb-2"> Booking ID: @booking.BookingId</h6>
+                        <p class="card-text">Price Per Ticket: @string.Format("{0:C}",booking.Package.PkgBasePrice) + (Applicable Fees)</p>
+                    
+                    @if (!booking.TravelerCount.HasValue)
+                    {
+                        <!-- Enable the input field for newly added packages -->
+                        <form asp-controller="Bookings" asp-action="UpdateBooking" method="post">
+                            <input type="hidden" name="bookingId" value="@booking.BookingId" />
+                            <div class="form-group">
+                                <label for="travelerCount">Number of Travelers:</label>
+                                    <input type="number" class="form-control bg-dark" name="travelerCount" placeholder="Add Number of Travelers" value="@booking.TravelerCount" min="1" data-val="true" 
+                                                      data-val-range="The number of travelers must be between 1 and 20." data-val-range-min="1" data-val-range-max="20"  required />
+                                <span class="text-danger" data-valmsg-for="travelerCount" data-valmsg-replace="true"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="bookedDate">Booked Date:</label>
+                                    <input type="date" class="form-control labeled-input bg-dark" name="bookedDate" value="@DateTime.Today.ToString("yyyy-MM-dd")" readonly />
+                            </div>
+                                <button type="submit" class="btn btn-primary mt-5 text-info">Update</button>
+                                @*<button asp-controller="Bookings" asp-action="RemoveBooking" type="submit" class="btn btn-primary mt-5 text-info">Remove</button>*@
+                        </form>
+                            <form asp-controller="Bookings" asp-action="RemoveBooking" method="post">
+                                <input type="hidden" name="bookingId" value="@booking.BookingId" />
+                                <button type="submit" class="btn btn-primary mt-3 text-danger">Cancel</button>
+                            </form>
+                    }
+                    else
+                    {
+                        <!-- Disable the input field for preexisting packages -->
+                        <form asp-controller="Bookings" asp-action="UpdateBooking" method="post">
+                            <input type="hidden" name="bookingId" value="@booking.BookingId" />
+                                <div class="form-group">
+                                    <label for="travelerCount">Number of Travelers:</label>
+                                    <input type="number" class="form-control bg-dark" name="travelerCount" placeholder="Add Number of Travelers" value="@booking.TravelerCount" min="1" disabled />
+                            </div>
+                                <div class="form-group">
+                                    <label for="bookedDate">Booked Date:</label>
+                                <input type="date" class="form-control labeled-input bg-dark" name="bookedDate" placeholder="Booked Date" value="@(booking.BookingDate.HasValue ? booking.BookingDate.Value.ToShortDateString() : @DateTime.Today.ToString("yyyy-MM-dd") )" readonly />
+                                </div>
+                                <button type="submit" class="btn btn-danger mt-5 text-muted" disabled>Update</button>
+                                <button asp-controller="Bookings" asp-action="RemoveBooking" type="submit" class="btn btn-primary mt-5 text-info">Remove</button>
+                        </form>
+                    }
+                        <p class="card-footer text-end">
+                            Total Price for Traveler(s): 
+                            @if (booking.TravelerCount.HasValue)
+                            {
+                                @*@string.Format("{0:C}",booking.Package.PkgBasePrice * (decimal)booking.TravelerCount.Value)*@
+                                @((booking.Package.PkgBasePrice * (decimal)booking.TravelerCount.Value).ToString("c") + " + (Applicable Fees)")
+                            }
+                            
+                            else if (booking.BookingId >= 0) // Check if the booking is a newly added package
+                            {
+                                <!-- Display placeholder for total price -->
+                                @("$ 0")
+                            }
+                        </p>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+}
+
+</body>

@@ -1,0 +1,130 @@
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\appsettings.json
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\TravelExperts.staticwebassets.runtime.json
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\TravelExperts.exe
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\TravelExperts.deps.json
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\TravelExperts.runtimeconfig.json
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\TravelExperts.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\TravelExperts.pdb
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\obj\Debug\net6.0\TravelExperts.csproj.AssemblyReference.cache
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\obj\Debug\net6.0\TravelExperts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\obj\Debug\net6.0\TravelExperts.AssemblyInfoInputs.cache
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\obj\Debug\net6.0\TravelExperts.AssemblyInfo.cs
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\obj\Debug\net6.0\TravelExperts.csproj.CoreCompileInputs.cache
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\obj\Debug\net6.0\TravelExperts.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\obj\Debug\net6.0\TravelExperts.RazorAssemblyInfo.cache
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\obj\Debug\net6.0\TravelExperts.RazorAssemblyInfo.cs
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\obj\Debug\net6.0\staticwebassets\msbuild.TravelExperts.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\obj\Debug\net6.0\staticwebassets\msbuild.build.TravelExperts.props
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TravelExperts.props
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TravelExperts.props
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\obj\Debug\net6.0\scopedcss\bundle\TravelExperts.styles.css
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\obj\Debug\net6.0\scopedcss\projectbundle\TravelExperts.bundle.scp.css
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\obj\Debug\net6.0\TravelExperts.csproj.CopyComplete
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\obj\Debug\net6.0\TravelExperts.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\obj\Debug\net6.0\refint\TravelExperts.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\obj\Debug\net6.0\TravelExperts.pdb
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\obj\Debug\net6.0\TravelExperts.genruntimeconfig.cache
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\obj\Debug\net6.0\ref\TravelExperts.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\TravelExpertsData.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\TravelExpertsData.pdb
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\appsettings.json
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\TravelExperts.staticwebassets.runtime.json
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\TravelExperts.exe
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\TravelExperts.deps.json
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\TravelExperts.runtimeconfig.json
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\TravelExperts.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\TravelExperts.pdb
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\TravelExpertsData.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\bin\Debug\net6.0\TravelExpertsData.pdb
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\obj\Debug\net6.0\TravelExperts.csproj.AssemblyReference.cache
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\obj\Debug\net6.0\TravelExperts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\obj\Debug\net6.0\TravelExperts.AssemblyInfoInputs.cache
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\obj\Debug\net6.0\TravelExperts.AssemblyInfo.cs
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\obj\Debug\net6.0\TravelExperts.csproj.CoreCompileInputs.cache
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\obj\Debug\net6.0\TravelExperts.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\obj\Debug\net6.0\TravelExperts.RazorAssemblyInfo.cache
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\obj\Debug\net6.0\TravelExperts.RazorAssemblyInfo.cs
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\obj\Debug\net6.0\staticwebassets\msbuild.TravelExperts.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\obj\Debug\net6.0\staticwebassets\msbuild.build.TravelExperts.props
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TravelExperts.props
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TravelExperts.props
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\obj\Debug\net6.0\scopedcss\bundle\TravelExperts.styles.css
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\obj\Debug\net6.0\scopedcss\projectbundle\TravelExperts.bundle.scp.css
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\obj\Debug\net6.0\TravelExperts.csproj.CopyComplete
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\obj\Debug\net6.0\TravelExperts.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\obj\Debug\net6.0\refint\TravelExperts.dll
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\obj\Debug\net6.0\TravelExperts.pdb
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\obj\Debug\net6.0\TravelExperts.genruntimeconfig.cache
+C:\Users\admor\source\repos\TravelExpertsWorkshop2 (most recent)!\TravelExpertsWorkshop2\TravelExperts\obj\Debug\net6.0\ref\TravelExperts.dll

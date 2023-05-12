@@ -1,0 +1,182 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<!-- Bootstrap CSS -->
+@*<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">*@
+
+<!-- jQuery library -->
+@*<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Bootstrap JS -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>*@
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- CSS Styling -->
+
+<style>
+    /*.card {
+        width: 300px;
+    }*/
+    
+    .row {
+        margin-left: -20rem;
+        margin-right:-20rem;
+    }
+</style>
+
+<!-- Carousel view of the main images and videos with discription and cards attached to the 
+                    left and right side that also update the content based on the current active slide -->
+<body class="bg-dark">
+<div class="container-fluid bg-dark" style=" height: 76vh;">
+    <div class="row " style="margin-top: 2rem;">
+        <div class="col-2" style="background-color: #555; height: 76vh; ">
+            <div class="card card-left bg-light" style=" margin: 0 -2rem;" id="left-card">
+                <div class="card-body" style="height: 76vh;">
+                    <h5 class="card-title" id="left-card-title">Title for slide 1</h5>
+                    <p class="card-text" id="left-card-text">Left card content for slide 1</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div id="demo" class="carousel slide" style="height: 76vh" data-bs-ride="carousel">
+
+                <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+                </div>
+                <div class="carousel-inner " style="height: 76vh">
+                    <div class="carousel-item active" style="height: 76vh">
+                        <img style="height: 100%" src="~/images/pyramids-1.jpg" alt="Los Angeles" class="d-block w-100" alt="...">
+                        <div class="carousel-caption">
+                            <h3 class="text-white">Image Title</h3>
+                            <p class="text-white">Discription of the image</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="height: 76vh;">
+                        <video src="~/HomePageImages/mixkit-beautiful-coast-with-motorboats-and-a-pier-seen-from-the-5363-medium.mp4" class="d-block w-100 h-100" autoplay loop muted></video>
+                        <div class="carousel-caption">
+                            <h3 class="text-white">Video Title</h3>
+                            <p class="text-white">Description of the video</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="height: 76vh">
+                        <img src="~/HomePageImages/mountain-range-sunset.jpg" alt="Chicago" class="d-block w-100 h-100">
+                        <div class="carousel-caption">
+                            <h3 class="text-white">Image Title</h3>
+                            <p class="text-white">Discription of the image</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="height: 76vh">
+                        <img src="~/HomePageImages/northern-lights-mountains.jpg" alt="New York" class="d-block w-100 h-100">
+                        <div class="carousel-caption">
+                            <h3 class="text-white">Image Title</h3>
+                            <p class="text-white">Discription of the image</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="height: 76vh">
+                        <video src="~/HomePageImages/mixkit-walking-through-the-streets-of-seville-10987-medium.mp4" class="d-block w-100 h-100" autoplay loop muted></video>
+                        <div class="carousel-caption">
+                            <h3 class="text-white">Video Title</h3>
+                            <p class="text-white">Description of the video</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        
+        <div class="col-2" style="background-color: #555; height: 76vh;">
+            <div class="card card-right bg-light" style=" margin: 0 -2rem;" id="right-card">
+                <div class="card-body" style="height: 76vh;">
+                    <h5 class="card-title" id="right-card-title">Title for slide 1</h5>
+                    <p class="card-text" id="right-card-text">Right card content for slide 1</p>
+                    <div class="text-center">
+                            <a asp-controller="Packages" asp-action="Index" class="btn  btn-outline-info">View Packages</a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script>
+    // Get a reference to the carousel element
+    var carousel = $("#demo");
+
+    // Attach an event listener to the carousel's slide.bs.carousel event
+    carousel.on("slide.bs.carousel", function (e) {
+        // Get the index of the current slide
+        var currentIndex = e.to;
+
+        // Update the left and right card content based on the current slide index
+        updateLeftCard(currentIndex);
+        updateRightCard(currentIndex);
+    });
+
+    // Function to update the content of the left card based on the current slide index
+    function updateLeftCard(currentIndex) {
+        // Get a reference to the left card element
+        var leftCard = $("#left-card");
+
+        // Update the left card content based on the current slide index
+        // For example, you could use an array to store the card content for each slide
+        var cardTitles = ["Title for slide 1", 
+                          "Title for slide 2", 
+                          "Title for slide 3",
+                          "Title for slide 4", 
+                          "Title for slide 5"];
+
+        var cardContent = ["Left card content for slide 1", 
+                           "Left card content for slide 2", 
+                           "Left card content for slide 3", 
+                           "Left card content for slide 4", 
+                           "Left card content for slide 5"];
+
+        leftCard.find(".card-title").html(cardTitles[currentIndex]);
+        leftCard.find(".card-text").html(cardContent[currentIndex]);
+    }
+
+    // Function to update the content of the right card based on the current slide index
+    function updateRightCard(currentIndex) {
+        // Get a reference to the right card element
+        var rightCard = $("#right-card");
+
+        // Update the right card content based on the current slide index
+        // For example, you could use an array to store the card content for each slide
+        var cardTitles = ["Title for slide 1", 
+                          "Title for slide 2", 
+                          "Title for slide 3",
+                          "Title for slide 4", 
+                          "Title for slide 5"];
+
+        var cardContent = ["Right card content for slide 1", 
+                           "Right card content for slide 2",
+                           "Right card content for slide 3", 
+                           "Right card content for slide 4", 
+                           "Right card content for slide 5"];
+
+        rightCard.find(".card-title").html(cardTitles[currentIndex]);
+        rightCard.find(".card-text").html(cardContent[currentIndex]);
+    }
+
+</script>

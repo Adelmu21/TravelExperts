@@ -1,0 +1,249 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+@model List<TravelExperts.Models.PackagesViewModel>
+
+
+
+<!-- Bootstrap CSS -->
+@*<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">*@
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Bootstrap JS -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+<body class="bg-dark">
+<!-- Carousel -->
+<div id="demo" class="carousel slide carousel-fade" data-ride="carousel" style="margin-top: 2rem;">
+
+    <!-- Indicators/dots -->
+    <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+        <li data-target="#demo" data-slide-to="3"></li>
+    </ul>
+
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner" style="height: 700px;">
+        <div class="carousel-item active rounded-4 slide carousel-fade">
+            <img src="~/images/CaribbeanCruise.jpg" alt="Caribbean New Year" class="d-block w-100 carousel-image">
+            <@*div class="carousel-caption">
+                <h3 class="text-dark">Caribbean New Year</h3>
+            </div>*@
+            <div class="position-absolute bottom-0 w-100">
+                <div class="bg-dark p-3 opacity-75">
+                    <h5 class="text-center text-white">Caribbean New Year</h5>
+                </div>
+            </div>
+            <div class="card  px-5">
+                <img class="card-img-top mx-auto" src="~/images/CaribbeanCruise.jpg" alt="Card image cap" style="height: 200px; width: 500px; ">
+                <h4 class="text-center">Caribbean New Year</h4>
+                <p>
+                    Sail into the New Year in style with our Caribbean cruise! Bask in the warm sun,
+                    explore vibrant ports, indulge in delicious cuisine, and celebrate the arrival of the New Year with exclusive onboard festivities.
+                    This is the ultimate escape from the winter blues – book now for the adventure of a lifetime.
+                </p>
+                <div class="text-left" style="padding-left: 7rem">
+                @foreach (var package in Model.Where(p => p.PkgName == "Caribbean New Year"))
+                {
+                    <p>Description: @package.PkgDesc</p>
+                    @*<p>Start Date: @package.PkgStartDate?.ToString("yyyy-MM-dd")</p>*@
+                    <p>Pricing: @(package.PkgBasePrice.ToString("c")) + Applicable fees</p>
+                }
+                </div>
+                <div class="text-center">
+                <a asp-controller="Bookings" asp-action="Index" class="btn btn-outline-info">Book Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item rounded-4 slide carousel-fade">
+            <img src="~/images/Polynesianparadise.jpg" alt="Polynesian Paradise" class="d-block w-100 carousel-image">
+            @*<div class="carousel-caption">
+                <h3 class="text-dark">Polynesian Paradise</h3>
+            </div>*@
+            <div class="position-absolute bottom-0 w-100">
+                <div class="bg-dark p-3 opacity-75">
+                    <h5 class="text-center text-white">Polynesian Paradise</h5>
+                </div>
+            </div>
+            <div class="card px-5">
+                <img class="card-img-top  mx-auto" src="~/images/Polynesianparadise.jpg" alt="Card image cap" style="height: 200px; width: 500px; ">
+                <h4 class="text-center">Polynesian Paradise</h4>
+                <p>
+                    Discover the enchanting beauty of Polynesia – a paradise like no other!
+                    Immerse yourself in the turquoise waters of the South Pacific, explore lush tropical forests,
+                    and bask in the warm sun on pristine white sand beaches. With rich cultural traditions, delicious cuisine,
+                    and breathtaking scenery, Polynesia is the ultimate escape from the stresses of daily life.
+                    Book your trip now and experience a world of beauty and wonder!.
+                </p>
+                <div class="text-left" style="padding-left: 7rem">
+                @foreach (var package in Model.Where(p => p.PkgName == "Polynesian Paradise"))
+                {
+                        <p>Description: @package.PkgDesc</p>
+                        @*<p>Start Date: @package.PkgStartDate?.ToString("yyyy-MM-dd")</p>*@
+                        <p>Pricing: @(package.PkgBasePrice.ToString("c")) + Applicable fees</p>
+                }
+                </div>
+                <div class="text-center">
+                        <a asp-controller="Bookings" asp-action="Index" class="btn btn-outline-info">Book Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item rounded-4 slide carousel-fade">
+            <img src="~/images/AsianExpo.jpg" alt="Asian Expedition" class="d-block w-100 carousel-image">
+            @*<div class="carousel-caption">
+                <h3 class="text-dark">Asian Expedition</h3>
+            </div>*@
+            <div class="position-absolute bottom-0 w-100">
+                <div class="bg-dark p-3 opacity-75">
+                    <h5 class="text-center text-white">Asian Expedition</h5>
+                </div>
+            </div>
+            <div class="card px-5">
+                <img class="card-img-top  mx-auto" src="~/images/AsianExpo.jpg" alt="Card image cap" style="height: 200px; width: 500px; ">
+                <h4 class="text-center">Asian Expedition</h4>
+                <p>
+                    Experience the mystical beauty of Asia on an unforgettable expedition!
+                    Immerse yourself in the vibrant cultures of Japan, Thailand, and Vietnam, and explore ancient temples,
+                    bustling markets, and stunning natural landscapes. With a rich history, delectable cuisine, and warm hospitality,
+                    Asia is the ultimate destination for adventurers and culture enthusiasts.
+                    Book your trip now and get ready for a journey that will leave you spellbound.
+                </p>
+                <div class="text-left" style="padding-left: 7rem">
+                    @foreach (var package in Model.Where(p => p.PkgName == "Asian Expedition"))
+                    {
+                        <p>Description: @package.PkgDesc</p>
+                        @*<p>Start Date: @package.PkgStartDate?.ToString("yyyy-MM-dd")</p>*@
+                        <p>Pricing: @(package.PkgBasePrice.ToString("c")) + Applicable fees</p>
+                    }
+                </div>
+                <div class="text-center">
+                        <a asp-controller="Bookings" asp-action="Index" class="btn btn-outline-info">Book Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item rounded-4 slide carousel-fade">
+            <img src="~/images/Eurovacation.jpg" alt="European Vacation" class="d-block w-100 carousel-image">
+            @*<div class="carousel-caption d-none d-md-block">
+                <div class="bg-dark p-3">
+                <h3>European Vacation</h3>
+                </div>
+            </div>*@
+            <div class="position-absolute bottom-0 w-100">
+                <div class="bg-dark p-3 opacity-75">
+                    <h5 class="text-center text-white">European Vacation</h5>
+                </div>
+            </div>
+            <div class="card px-5">
+                <img class="card-img-top  mx-auto" src="~/images/Eurovacation.jpg" alt="Card image cap" style="height: 200px; width: 500px; ">
+                <h4 class="text-center">European Vacation</h4>
+                <p>
+                    Embark on a European adventure and discover a world of wonder!
+                    Explore the charming streets of Paris, indulge in the vibrant nightlife of Berlin,
+                    and marvel at the historical wonders of Rome. With so much to see and do,
+                    a European vacation is the perfect escape for culture-seekers, foodies, and history buffs alike.
+                    From the stunning architecture to the delectable cuisine, Europe is a must-see destination for any traveler.
+                    Book your trip now and get ready for the adventure of a lifetime
+                </p>
+                <div class="text-left" style="padding-left: 7rem">
+                    @foreach (var package in Model.Where(p => p.PkgName == "European Vacation"))
+                    {
+                        <p>Description: @package.PkgDesc</p>
+                        @*<p>Start Date: @package.PkgStartDate?.ToString("yyyy-MM-dd")</p>*@
+                        <p>Pricing: @(package.PkgBasePrice.ToString("c")) + Applicable fees</p>
+                    }
+                </div>
+                <div class="text-center">
+                        <a asp-controller="Bookings" asp-action="Index" class="btn btn-outline-info">Book Now</a>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+
+    
+
+    <!-- Left and right controls/icons -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a>
+</div>
+
+</body>
+
+<!-- CSS Styling -->
+<style>
+    .carousel-image {
+        height: 700px;
+        object-fit: cover;
+    }
+
+    .carousel-item:hover .card {
+        transform: translateY(-50%);
+        opacity: 1;
+    }
+
+    .carousel-item .card {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        transition: all .3s linear;
+        z-index: 1;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+    }
+
+    .carousel-item {
+        height: 700px;
+        overflow: hidden;
+        position: relative;
+        transition: transform 1s ease-in-out;
+    }
+
+
+    /* Change the color of the carousel controls */
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        background-color: black; /* Change the background color */
+        color: white; /* Change the color of the icon */
+    }
+
+    /* Change the color of the carousel control buttons on hover */
+    .carousel-control-prev:hover,
+    .carousel-control-next:hover {
+        background-color: transparent; /* Change the background color */
+        color: white; /* Change the color of the icon */
+    }
+
+    /* Change the color of the carousel control buttons when they're active */
+    .carousel-control-prev:focus,
+    .carousel-control-next:focus,
+    .carousel-control-prev:active,
+    .carousel-control-next:active {
+        background-color: transparent; /* Change the background color */
+        color: white; /* Change the color of the icon */
+    }
+
+    </style>
+
+
+
+

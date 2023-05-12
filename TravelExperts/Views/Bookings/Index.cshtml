@@ -1,0 +1,49 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model List<TravelExperts.Models.PackagesViewModel>
+
+
+    @*A bookings page that shows the available packages with a form that includes a dropdown menu to pick from and add to My Bookings Page*@
+
+<body class="bg-dark">
+<h1>Book a Trip</h1>
+
+
+    <table class="table">
+        <tr>
+            <th class="col-1"></th>
+            <th class="col-1 text-info">Package Name</th>
+            <th class="col-2 text-info">Description</th>
+            <th class="col-1 text-info">Package Price</th>
+        </tr>
+    @foreach (var Package in Model)
+    {
+            <tr class="table-dark ">
+                <td class="text-white">@Package.PackageId</td>
+            <td class="text-white">@Package.PkgName</td>
+            <td class="text-white">@Package.PkgDesc</td>
+           
+            <td class="text-white">@Package.PkgBasePrice.ToString("c") + Applicable Fees</td>
+            </tr>
+    }
+    </table>
+
+<form asp-controller="Bookings" asp-action="BookPackage" method="post">
+    <div class="form-group mt-5">
+        <label class="text-info" for="package">Select a Package:</label>
+        <select class="form-control mt-3 text-info" id="package" name="packageId">
+            @foreach (var package in Model)
+            {
+                <option value="@package.PackageId">@package.PkgName</option>
+            }
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary mt-4 text-info">Book Package</button>
+</form>
+
+
+</body>

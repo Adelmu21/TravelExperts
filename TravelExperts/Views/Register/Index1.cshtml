@@ -1,0 +1,146 @@
+﻿@model TravelExpertsData.Customer
+
+@{
+    ViewBag.Title = "Registration";
+}
+
+@*@section scripts {
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}*@
+
+<!-- Registeration Form -->
+
+<form asp-controller="Register" asp-action="Index1" method="Post">
+    <h3>Registration Page</h3>
+    <div class="form-group mt-3">
+        <div class="col-sm-2"><label>Username:</label></div>
+        <div class="col-sm-4">
+            <input type="text" placeholder="Enter Username" asp-for="@Model.Username" class="form-control bg-dark" />
+        </div>
+        <div class="col">
+            <span asp-validation-for="@Model.Username" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group mt-3">
+        <div class="col-sm-2"><label>First Name:</label></div>
+        <div class="col-sm-4">
+            <input type="text" placeholder="Enter First Name" asp-for="@Model.CustFirstName" class="form-control bg-dark" />
+        </div>
+        <div class="col">
+            <span asp-validation-for="@Model.CustFirstName" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group mt-3">
+        <div class="col-sm-2"><label>Last Name:</label></div>
+        <div class="col-sm-4">
+            <input type="text" placeholder="Enter Last Name" asp-for="@Model.CustLastName" class="form-control bg-dark" />
+        </div>
+        <div class="col">
+            <span asp-validation-for="@Model.CustLastName" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group  mt-3">
+        <div class="col-sm-2"><label>Phone No.:</label></div>
+        <div class="col-sm-4">
+            <input type="text" placeholder="Enter Phone Number" asp-for="@Model.CustHomePhone" class="form-control bg-dark" pattern="\d{3}-?\d{3}-?\d{4}"
+                   title="Please enter only numbers, with optional hyphens after the first 3 and second 3 digits" />
+        </div>
+        <div class="col">
+            <span asp-validation-for="@Model.CustHomePhone" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group  mt-3">
+        <div class="col-sm-2"><label>Business Phone Number:</label></div>
+        <div class="col-sm-4">
+            <input type="text" placeholder="Enter Cell Phone" asp-for="@Model.CustBusPhone" class="form-control bg-dark" pattern="\d{3}-?\d{3}-?\d{4}"
+                   title="Please enter only numbers, with optional hyphens after the first 3 and second 3 digits" />
+        </div>
+        <div class="col">
+            <span asp-validation-for="@Model.CustBusPhone" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="form-group mt-3">
+        <div class="col-sm-2"><label>Address:</label></div>
+        <div class="col-sm-4">
+            <input type="text" placeholder="Enter Address" asp-for="@Model.CustAddress" class="form-control bg-dark" />
+        </div>
+        <div class="col">
+            <span asp-validation-for="@Model.CustAddress" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group mt-3">
+        <div class="col-sm-2"><label>City:</label></div>
+        <div class="col-sm-4">
+            <input type="text" placeholder="Enter City" asp-for="@Model.CustCity" class="form-control bg-dark" />
+        </div>
+        <div class="col">
+            <span asp-validation-for="@Model.CustCity" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group mt-3">
+        <div class="col-sm-2"><label>Province:</label></div>
+        <div class="col-sm-4">
+            <input type="text" placeholder="Enter Province" asp-for="@Model.CustProv" class="form-control bg-dark" />
+        </div>
+        <div class="col">
+            <span asp-validation-for="@Model.CustProv" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group mt-3">
+        <div class="col-sm-2"><label>Country:</label></div>
+        <div class="col-sm-4">
+            <input type="text" placeholder="Enter Country" asp-for="@Model.CustCountry" class="form-control bg-dark" />
+        </div>
+        <div class="col">
+            <span asp-validation-for="@Model.CustCountry" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group mt-3">
+        <div class="col-sm-2"><label>Postal Code:</label></div>
+        <div class="col-sm-4">
+            <input type="text" placeholder="Enter Postal Code" asp-for="@Model.CustPostal" class="form-control bg-dark" />
+        </div>
+        <div class="col">
+            <span asp-validation-for="@Model.CustPostal" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group mt-3">
+        <div class="col-sm-2"><label>Email:</label></div>
+        <div class="col-sm-4">
+            <input type="email" placeholder="Enter Email Address" asp-for="@Model.CustEmail" class="form-control bg-dark" pattern="[a-z0-9._%+-]+&#64;[a-z0-9.-]+\.[a-z]{2,}$"
+                   title="Please enter a valid email address in the format: yourname@example.com" />
+        </div>
+        <div class="col">
+            <span asp-validation-for="@Model.CustEmail" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group mt-3">
+        <div class="col-sm-2"><label>Password:</label></div>
+        <div class="col-sm-4">
+            <input type="password" placeholder="Enter Password" asp-for="@Model.Password" class="form-control bg-dark" />
+        </div>
+        <div class="col">
+            <span asp-validation-for="@Model.Password" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group mt-3">
+        <div class="col-sm-2"><label>Confirm Password:</label></div>
+        <div class="col-sm-4">
+            <input type="password" placeholder="Confirm Password" asp-for="@Model.ConfirmPassword" class="form-control bg-dark" />
+        </div>
+        <div class="col">
+            <span asp-validation-for="@Model.ConfirmPassword" class="text-danger"></span>
+        </div>
+    </div>
+    
+    <!-- Sumbit Btn -->
+    <div colspan="2" class="text-end mt-5 mb-5">
+        <div class="offset-2 col-sm-4">
+            <button type="submit" class="btn btn-outline-info">Register</button>
+        </div>
+    </div>
+
+
+</form>
