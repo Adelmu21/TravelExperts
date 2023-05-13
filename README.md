@@ -34,7 +34,7 @@ a login and register feature.
 ![Packages Card screenshot](./img/PackagesCard.jpg)<br>
 
 <h5>Login Page</h5>
-<h5>![Login Page screenshot](./img/LoginPage.jpg)<br>
+![Login Page screenshot](./img/LoginPage.jpg)<br>
 
 <h5>Bookings Page</h5>
 ![Bookings Page screenshot](./img/BookingsPage.jpg)<br>
