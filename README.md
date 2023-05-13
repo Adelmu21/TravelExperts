@@ -7,7 +7,6 @@ a login and register feature.
 * [Technologies Used](#technologies-used)
 * [Screenshots](#screenshots)
 * [Setup](#setup)
-* 
 
 ## General Information
 - Travel Website intented to allow users to view and add packages (a user would be the customer)
@@ -25,7 +24,7 @@ a login and register feature.
 - CSS
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](./img/MainPage.jpg)
 <!-- If you have screenshots you'd like to share, include them here. -->
 
 
