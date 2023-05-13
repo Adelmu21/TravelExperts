@@ -1,54 +1,28 @@
 # TravelExperts
-
-
-Website that was created as a final project 
-
-featuring a webpage built using Visual Studio, project was made using ASP.NET Web App (Model-View-Controller)
-
-Coded using C#, HTML, CSS, JS, Bootstrap
-
-Project Discription
-Website that features a Travel Website including a main page, a bookings page and a My bookings page to view bookings
-a login and register feature 
-
-# Project Name
-> Outline a brief description of your project.
-<!-- > Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. --> -->
+> Website that features a Travel Website including a main page, a bookings page and a My bookings page to view bookings
+a login and register feature.
 
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
-* [Features](#features)
 * [Screenshots](#screenshots)
 * [Setup](#setup)
-* [Usage](#usage)
-* [Project Status](#project-status)
-* [Room for Improvement](#room-for-improvement)
-* [Acknowledgements](#acknowledgements)
-* [Contact](#contact)
-<!-- * [License](#license) -->
-
+* 
 
 ## General Information
-- Provide general information about your project here.
-- What problem does it (intend to) solve?
-- What is the purpose of your project?
-- Why did you undertake it?
+- Travel Website intented to allow users to view and add packages (a user would be the customer)
+- Intended to create a user experience to provide a platform that displays a product
+- Made as a final project for my class
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- Tech 1 - version 1.0
-- Tech 2 - version 2.0
-- Tech 3 - version 3.0
-
-
-## Features
-List the ready features here:
-- Awesome feature 1
-- Awesome feature 2
-- Awesome feature 3
-
+- Bootstrap 5
+- jQuery JS library 3.6
+- Microsoft .NET
+- C# 
+- HTML5
+- CSS
 
 ## Screenshots
 ![Example screenshot](./img/screenshot.png)
@@ -56,47 +30,12 @@ List the ready features here:
 
 
 ## Setup
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
+after downloading all files in the repo (Visual Studio was used to build and run the Web App)
+- then start TravelExpertsWorshop2.sln file
+- set TravelExpertsData library as Startup project
+- go to Project Manager Console and make sure the default project is set to TravelExpertsData
+- cope and paste this scaffold in PM console Scaffold-DbContext -Connection "Data Source=localhost\sqlexpress;Initial Catalog=TravelExperts;Integrated Security=True;Encrypt=False" -Provider Microsoft.EntityFrameworkCore.SqlServer -Context TravelExpertsContext -OutputDir "look up where the TravelExpertsData folder is, right click and copy as path to paste here" -DataAnnotations
+- now after it says complete make sure to set the TravelExperts project back as start up project
+- Run the program and you should be able to navigate trough the page
 
-Proceed to describe how to install / setup one's local environment / get started with the project.
-
-
-## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
-
-`write-your-code-here`
-
-
-## Project Status
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
-
-
-## Room for Improvement
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
-
-Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
-
-To do:
-- Feature to be added 1
-- Feature to be added 2
-
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
-
-
-## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+## Thank you for reading
