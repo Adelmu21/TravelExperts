@@ -24,22 +24,23 @@ a login and register feature.
 - CSS
 
 ## Screenshots
-<h5>Main Page</h5>
+
+Main Page
 ![Main Page screenshot](./img/MainPage.jpg)<br>
 
-<h5>Packages Page</h5>
+Packages Page
 ![Packages Page screenshot](./img/PackagesPage.jpg)<br>
 
-<h5>Packages Card</h5>
+Packages Card
 ![Packages Card screenshot](./img/PackagesCard.jpg)<br>
 
-<h5>Login Page</h5>
+Login Page
 ![Login Page screenshot](./img/LoginPage.jpg)<br>
 
-<h5>Bookings Page</h5>
+Bookings Page
 ![Bookings Page screenshot](./img/BookingsPage.jpg)<br>
 
-<h5>My Bookings Page</h5>
+My Bookings Page
 ![My Bookings Page screenshot](./img/MyBookingsPage.jpg)<br>
 
 
