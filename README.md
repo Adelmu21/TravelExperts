@@ -24,8 +24,20 @@ a login and register feature.
 - CSS
 
 ## Screenshots
-![Example screenshot](./img/MainPage.jpg)
-<!-- If you have screenshots you'd like to share, include them here. -->
+Main Page
+![Main Page screenshot](./img/MainPage.jpg)<br>
+
+Packages Page
+![Packages Page screenshot](./img/PackagesPage.jpg)<br>
+
+Login Page
+![Login Page screenshot](./img/LoginPage.jpg)<br>
+
+Bookings Page
+![Bookings Page screenshot](./img/BookingsPage.jpg)<br>
+
+My Bookings Page
+![My Bookings Page screenshot](./img/MyBookingsPage.jpg)<br>
 
 
 ## Setup
