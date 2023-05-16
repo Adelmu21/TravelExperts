@@ -1,6 +1,6 @@
 # TravelExperts
 > Website that features a Travel Website including a main page, a bookings page and a My bookings page to view bookings
-a login and register feature.
+a login and register feature, in order to access the content of the both the bookings page and the mybookings page.
 
 ## Table of Contents
 * [General Info](#general-information)
