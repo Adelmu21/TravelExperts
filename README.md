@@ -9,9 +9,9 @@ a login and register feature, in order to access the content of the both the boo
 * [Setup](#setup)
 
 ## General Information
-- Travel Website intented to allow users to view and add packages (a user would be the customer)
+- Travel Website intended to allow users to view and add packages (a user would be the customer)
 - Intended to create a user experience to provide a platform that displays a product
-- Made as a final project for my class
+
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
